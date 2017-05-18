@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasPrices", "GasPrices\GasPrices.csproj", "{1B8DBE94-7214-4AAF-850B-81A5B49B5691}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TryItGasPrices", "..\TryItGasPrices\", "{0439E999-7FAE-4FA4-B2A4-2D50A671C454}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58492"
+		Debug.AspNetCompiler.PhysicalPath = "..\TryItGasPrices\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58492\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58492"
+		Release.AspNetCompiler.PhysicalPath = "..\TryItGasPrices\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58492\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58492"
+		SlnRelativePath = "..\TryItGasPrices\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{1B8DBE94-7214-4AAF-850B-81A5B49B5691} = {1B8DBE94-7214-4AAF-850B-81A5B49B5691}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8DBE94-7214-4AAF-850B-81A5B49B5691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8DBE94-7214-4AAF-850B-81A5B49B5691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8DBE94-7214-4AAF-850B-81A5B49B5691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8DBE94-7214-4AAF-850B-81A5B49B5691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0439E999-7FAE-4FA4-B2A4-2D50A671C454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0439E999-7FAE-4FA4-B2A4-2D50A671C454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0439E999-7FAE-4FA4-B2A4-2D50A671C454}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0439E999-7FAE-4FA4-B2A4-2D50A671C454}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
